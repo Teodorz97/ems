@@ -1,0 +1,1 @@
+UPDATE employee SET delete_flag = TRUE, modification_date = CURRENT_TIMESTAMP WHERE id = :employeeId AND delete_flag = FALSE

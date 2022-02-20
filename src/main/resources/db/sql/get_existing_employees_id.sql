@@ -1,0 +1,1 @@
+SELECT id FROM employee WHERE id IN(:superiorEmployeeId, :subordinateEmployeeId) AND delete_flag = FALSE
